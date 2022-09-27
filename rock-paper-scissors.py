@@ -15,7 +15,7 @@ value = ["r", "p", "s"].index(choice) + 1
 
 if str(value) + str(compchoice) in ["13", "21", "32"]:
     print("You win!")
-else: str(value) == str(compchoice):
+elif: str(value) == str(compchoice):
     print("It's a draw!")
 else:
     print("You lose.")
